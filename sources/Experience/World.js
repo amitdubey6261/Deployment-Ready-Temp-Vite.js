@@ -24,7 +24,7 @@ export default class World
         this.resources.items.lennaTexture.encoding = THREE.sRGBEncoding
         
         const cube = new THREE.Mesh(
-            new THREE.BoxGeometry(1, 1, 1),
+            new THREE.BoxGeometry(2, 5, 2),
             new THREE.MeshBasicMaterial({ map: this.resources.items.lennaTexture })
         )
         this.scene.add(cube)        
